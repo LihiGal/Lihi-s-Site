@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lihi Gal Ezer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Quicksand:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- floating ambient doodles -->
+<div class="doodles" aria-hidden="true">
+  <span class="doodle d1">✦</span>
+  <span class="doodle d2">♡</span>
+  <span class="doodle d3">✦</span>
+  <span class="doodle d4">☆</span>
+  <span class="doodle d5">♡</span>
+</div>
+
+<nav class="navbar">
+  <a href="#home" class="nav-logo">lihi<span>.</span></a>
+  <div class="nav-links">
+    <a href="#about">about</a>
+    <a href="#projects">projects</a>
+    <a href="#experience">experience</a>
+    <a href="#skills">skills</a>
+    <a href="#contact">say hi</a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">welcome to my corner of the internet</p>
+      <h1 class="hero-title">Lihi Gal&nbsp;Ezer</h1>
+      <p class="hero-sub">CS + Computational Cognition student who builds ML apps, HCI prototypes, and the occasional assembly-language video game.</p>
+      <div class="hero-tags">
+        <span class="sticker sticker-yellow rot-1">Toronto, ON</span>
+        <span class="sticker sticker-mint rot-2">Co-op '28</span>
+        <span class="sticker sticker-pink rot-3">Robarts Library IT</span>
+      </div>
+      <div class="hero-links">
+        <a class="btn-tape" href="mailto:lihi.galezer@gmail.com">email me</a>
+        <a class="btn-tape" href="https://linkedin.com/in/lihi-galezer" target="_blank" rel="noopener">linkedin</a>
+        <a class="btn-tape" href="https://github.com/LihiGal" target="_blank" rel="noopener">github</a>
+      </div>
+    </div>
+    <div class="polaroid hero-photo rot-2">
+      <div class="polaroid-photo photo-face">(◕ᴗ◕✿)</div>
+      <p class="polaroid-caption">that's me!</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title"><span class="tape tape-top"></span>about me</h2>
+    <div class="notebook fade-in">
+      <p>I'm a third-year Computer Science &amp; Computational Cognition student at the University of Toronto, in the Focus in Technology Leadership co-op program. I like the parts of software where a system has to reason about messy, real-world data — injury risk, mental health trends, how people actually use an app.</p>
+      <p>Outside of class I'm usually knee-deep in a side project, fixing someone's laptop at the help desk, or thrifting something I'll definitely sew into a new outfit.</p>
+      <div class="notecard-row">
+        <div class="notecard rot-1">
+          <p class="notecard-label">studying</p>
+          <p class="notecard-value">Honours B.Sc., CS &amp; Computational Cognition</p>
+        </div>
+        <div class="notecard rot-2">
+          <p class="notecard-label">award</p>
+          <p class="notecard-value">U of T International Merit Award ($50,000)</p>
+        </div>
+        <div class="notecard rot-3">
+          <p class="notecard-label">right now</p>
+          <p class="notecard-value">Assistant Help Desk Advisor @ Robarts Library</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">things I've built</h2>
+    <div class="project-board">
+
+      <article class="polaroid rot-1 fade-in">
+        <div class="tape tape-corner"></div>
+        <div class="polaroid-photo">⚾</div>
+        <h3 class="polaroid-title">PitchSafe</h3>
+        <p class="polaroid-meta">Python · FastAPI · PyTorch · React · Docker</p>
+        <p class="polaroid-desc">A full-stack ML app predicting pitcher injury risk in real time, built with a baseball analytics startup and shown at the U of T Brighter Futures exhibition.</p>
+      </article>
+
+      <article class="polaroid rot-2 fade-in">
+        <div class="tape tape-corner"></div>
+        <div class="polaroid-photo">💬</div>
+        <h3 class="polaroid-title">LetsLink</h3>
+        <p class="polaroid-meta">React · Vite · Figma · HCI research</p>
+        <p class="polaroid-desc">A social discovery app prototype for finding people in shared "third spaces," refined through think-aloud studies and cognitive walkthroughs.</p>
+      </article>
+
+      <article class="polaroid rot-3 fade-in">
+        <div class="tape tape-corner"></div>
+        <div class="polaroid-photo">🎮</div>
+        <h3 class="polaroid-title">Columns</h3>
+        <p class="polaroid-meta">MIPS Assembly · MARS &amp; Saturn</p>
+        <p class="polaroid-desc">A falling-block puzzle game written entirely in MIPS assembly — match detection, gravity, and difficulty scaling with no high-level language in sight.</p>
+      </article>
+
+      <article class="polaroid rot-1 fade-in">
+        <div class="tape tape-corner"></div>
+        <div class="polaroid-photo">📊</div>
+        <h3 class="polaroid-title">Global Mental Health Data Analysis</h3>
+        <p class="polaroid-meta">Python · pandas · Matplotlib</p>
+        <p class="polaroid-desc">Joined WHO, IHME, and population datasets to surface how healthcare access relates to depression and anxiety prevalence across countries.</p>
+      </article>
+
+      <article class="polaroid rot-2 fade-in">
+        <div class="tape tape-corner"></div>
+        <div class="polaroid-photo">🐷</div>
+        <h3 class="polaroid-title">GoldenGoose</h3>
+        <p class="polaroid-meta">Python · OOP</p>
+        <p class="polaroid-desc">A CLI multi-user finance app with role-based logins, compound interest simulation, and file-based storage for a whole family's accounts.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2 class="section-title">where I've worked</h2>
+    <div class="timeline">
+
+      <div class="timeline-entry fade-in">
+        <span class="sticky-date sticker-yellow">Sep 2024 – present</span>
+        <div class="timeline-card">
+          <h3>IT Help Desk Analyst</h3>
+          <p class="timeline-org">University of Toronto, Jackman Law</p>
+          <p>Diagnosing hardware, software, and networking issues, and running full incident lifecycles in ServiceNow alongside Tier 2 teams.</p>
+        </div>
+      </div>
+
+      <div class="timeline-entry fade-in">
+        <span class="sticky-date sticker-pink">May 2026 – present</span>
+        <div class="timeline-card">
+          <h3>Assistant Help Desk Advisor</h3>
+          <p class="timeline-org">John P. Robarts Research Library, U of T</p>
+          <p>Front-line IT support for students, faculty, and staff — account access, DUO/UTORauth admin, and audit-ready documentation.</p>
+        </div>
+      </div>
+
+      <div class="timeline-entry fade-in">
+        <span class="sticky-date sticker-mint">Aug 2025 – present</span>
+        <div class="timeline-card">
+          <h3>Classroom Technology Operations Ambassador</h3>
+          <p class="timeline-org">Tech2U, University of Toronto</p>
+          <p>Real-time AV support across 600+ classrooms, plus remote dispatch via TalkMaster and XPanel.</p>
+        </div>
+      </div>
+
+      <div class="timeline-entry fade-in">
+        <span class="sticky-date sticker-yellow">Jun – Aug 2020</span>
+        <div class="timeline-card">
+          <h3>Database Development Apprentice</h3>
+          <p class="timeline-org">Lightspeed · San Jose, Costa Rica</p>
+          <p>Built relational databases from stakeholder requirements and wrote SQL to support product and reporting workflows.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title">my sticker collection <span class="sub">(aka skills)</span></h2>
+    <div class="sticker-cloud fade-in">
+      <span class="sticker sticker-pink rot-1">Python</span>
+      <span class="sticker sticker-mint rot-2">React</span>
+      <span class="sticker sticker-yellow rot-3">FastAPI</span>
+      <span class="sticker sticker-pink rot-2">PyTorch</span>
+      <span class="sticker sticker-mint rot-1">SQL</span>
+      <span class="sticker sticker-yellow rot-2">TypeScript</span>
+      <span class="sticker sticker-pink rot-3">Docker</span>
+      <span class="sticker sticker-mint rot-3">Java</span>
+      <span class="sticker sticker-yellow rot-1">C / C++</span>
+      <span class="sticker sticker-pink rot-1">Git &amp; CI/CD</span>
+      <span class="sticker sticker-mint rot-2">Figma</span>
+      <span class="sticker sticker-yellow rot-3">PostgreSQL</span>
+      <span class="sticker sticker-pink rot-2">ServiceNow</span>
+      <span class="sticker sticker-mint rot-1">Clean Architecture</span>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <h2 class="section-title">education</h2>
+    <div class="postcard fade-in">
+      <div class="postcard-stamp">est. 2024</div>
+      <h3>University of Toronto</h3>
+      <p class="postcard-sub">Honours B.Sc., Computer Science &amp; Computational Cognition — Sep 2024 to Jun 2028</p>
+      <p>Focus in Technology Leadership Program (FTLP) · International Merit Award</p>
+      <p class="postcard-courses">Coursework: Software Design, Data Structures &amp; Analysis, Databases, Computer Organization, Probability &amp; Statistics, Digital Humanities</p>
+    </div>
+    <div class="postcard postcard-small fade-in">
+      <div class="postcard-stamp">summer 2023</div>
+      <h3>New York University</h3>
+      <p class="postcard-sub">Steinhardt CREATE — Game Design Summer Program</p>
+      <p>Learned C# and Unity from scratch and co-built "Slice of Life," an endless-runner starring an NYC pizza — 3rd place out of all teams.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">say hi</h2>
+    <div class="notebook fade-in contact-card">
+      <p>Got a project, a role, or just want to talk about game boy assembly hacks? My inbox is open.</p>
+      <div class="hero-links">
+        <a class="btn-tape" href="mailto:lihi.galezer@gmail.com">lihi.galezer@gmail.com</a>
+        <a class="btn-tape" href="tel:+14374245815">(437) 424-5815</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>made with <span class="heart">♡</span> by Lihi Gal Ezer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
